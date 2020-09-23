@@ -38,7 +38,7 @@
 </template>
 
 <script>
-//import HelloWorld from '@/components/HelloWorld.vue'
+import navbar from '@/components/navbar.vue';
 
 export default {
   name: 'Home',
