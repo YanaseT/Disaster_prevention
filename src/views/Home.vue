@@ -1,7 +1,5 @@
 <template>
   <div class="home">
-<<<<<<< Updated upstream
-=======
     <navbar/>
     <v-content>
       <v-container fluid>
@@ -36,7 +34,6 @@
         </v-card>
       </v-container>
     </v-content>
->>>>>>> Stashed changes
   </div>
 </template>
 
@@ -46,10 +43,6 @@
 export default {
   name: 'Home',
   components: {
-<<<<<<< Updated upstream
-    //HelloWorld
-  }
-=======
     navbar
   },
   data: () => ({
@@ -60,6 +53,5 @@ export default {
       {title:"災害伝言掲示板",src:require("@/assets/bor.png"),discript:"災害時に家族や友人等への伝言を残すことが出来ます。SNS等による連絡手段を失った場合や、ご自身の端末を使用できない場合などに利用できます。",url:"",btncapt:"災害伝言掲示板を開く"},
       {title:"災害に備えましょう",src:require("@/assets/chi.png"),discript:"災害に備えて用意しておきたい商品などを紹介しています。",url:"",btncapt:"災害に備える"}]
   })
->>>>>>> Stashed changes
 }
 </script>
